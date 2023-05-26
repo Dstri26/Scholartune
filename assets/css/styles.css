@@ -1,0 +1,205 @@
+/* Define CSS Variables */
+:root {
+  --primary-color: #00a8e8; /* Energetic blue */
+  --background-color: #f9fafc; /* Soothing off-white */
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: var(--primary-color) !important;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+}
+
+/* Hero Section Styles */
+.hero {
+  background-color: var(--background-color) !important;
+  padding: 200px 0;
+  color: #333;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+/* About Section Styles */
+.about-section {
+  background-color: #fff;
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+/* Courses Section Styles */
+.courses-section {
+  background-color: var(--background-color) !important;
+}
+
+.courses-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.courses-section h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.courses-section p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+/* Contact Section Styles */
+.contact-section {
+  background-color: #fff;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact-section p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.contact-section .contact-info {
+  margin-top: 30px;
+}
+
+.contact-section .contact-item {
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-section .contact-item i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.contact-section .contact-item p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* Testimonial Section Styles */
+#testimonial {
+  background-color: #f9fafc;
+  padding: 60px 0;
+}
+
+#testimonial h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.carousel-indicators {
+  margin-bottom: 20px;
+}
+
+.carousel-indicators li {
+  width: 12px;
+  height: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.carousel-indicators .active {
+  background-color: #00a8e8;
+}
+
+.carousel-inner {
+  position: relative;
+}
+
+.carousel-item {
+  display: none;
+}
+
+.carousel-item.active {
+  display: block;
+}
+
+.carousel-item .testimonial-item {
+  text-align: center;
+  padding: 30px;
+}
+
+.carousel-item .avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  display: block;
+  object-fit: cover;
+}
+
+.carousel-item p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.carousel-item h4 {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+
+.carousel-item p.designation {
+  font-size: 1rem;
+  color: #888;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: var(--background-color) !important;
+  padding: 20px 0;
+  color: #333;
+  font-size: 0.9rem;
+}
